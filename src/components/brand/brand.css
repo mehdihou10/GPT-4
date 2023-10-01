@@ -1,0 +1,15 @@
+
+
+.brand{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.brand img{
+    min-width: 70px;
+    max-width: 90px;
+}
+

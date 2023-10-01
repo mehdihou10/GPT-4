@@ -1,0 +1,74 @@
+
+
+.header .container{
+    display: flex;
+    gap: 30px;
+}
+@media(max-width: 991px){.header 
+    .container{
+        flex-direction: column;
+    }
+}
+
+.header .container .text{
+    flex: 1;
+}
+.header .container .text h1{
+font-weight: 800;
+font-size: 50px;
+}
+
+.header .container .text .short-paragraph{
+color: #81AFDD;
+margin-block: 30px;
+
+}
+
+.header .container .text .email{
+display: flex;
+}
+
+.header .container .text .email input{
+border: none;
+outline: none;
+background-color: var(--color-footer);
+padding: 20px 30px;
+flex: 1;
+caret-color: white;
+}
+
+.header .container .text .email button{
+width: 100px;
+background-color: var(--color-red);
+outline: none;
+border: none;
+color: white;
+cursor: pointer;
+font-weight: bold;
+}
+
+.header .container .text .fideback{
+margin-top: 30px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+@media(max-width: 575px){
+    .header .container .text .fideback{
+        flex-direction: column;
+    }  
+}
+
+.header .container .text .fideback p{
+color: white;
+font-size: 12px;
+}
+
+.header .container .image{
+flex: 1;
+}
+.header .container .image img{
+    width: 100%;
+    height: 100%;
+    
+}

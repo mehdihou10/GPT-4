@@ -1,0 +1,36 @@
+
+
+.gpt4_cta{
+    background: var(--gradient-bar);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.gpt4_cta h6{
+color: #0E0E0E;
+margin-bottom: 15px;
+}
+.gpt4_cta .gpt4_cta-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+}
+@media(max-width: 767px){
+    .gpt4_cta .gpt4_cta-content{
+        flex-direction: column;
+    }
+}
+.gpt4_cta .gpt4_cta-content p{
+font-weight: 800;
+font-size: 18px;
+}
+.gpt4_cta .gpt4_cta-content a{
+background-color: black;
+color: white;
+border-radius: 50px;
+width: 120px;
+height: 40px;
+font-size: 14px;
+display: grid;
+place-items: center;
+}

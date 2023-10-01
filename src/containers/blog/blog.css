@@ -1,0 +1,70 @@
+
+.gpt4__blog h1{
+    font-size: 50px;
+    max-width: 550px;
+    margin-bottom: 50px;
+}
+@media(max-width: 575px){
+    .gpt4__blog h1{
+        font-size: 40px;
+    }
+}
+.gpt4__blog-content{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+color: white;
+}
+
+
+@media (max-width: 991px){
+    .gpt4__blog-content{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.gpt4__blog .gpt4__blog-box{
+background: var(--color-footer);
+position: relative;
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .gpt4__blog .gpt4__blog-box:not(:first-child){
+        flex-basis: calc(50% - 15px);
+    }
+}
+
+.gpt4__blog .gpt4__blog-box:first-child{
+    grid-row: span 2;
+}
+@media (max-width: 991px){
+    .gpt4__blog .gpt4__blog-box:first-child{
+        flex-basis: 100%;
+    }
+}
+
+.gpt4__blog .gpt4__blog-box img{
+max-width: 100%;
+}
+
+.gpt4__blog .gpt4__blog-box div{
+    padding: 20px;
+}
+.gpt4__blog .gpt4__blog-box h5{
+font-size: 12px;
+}
+.gpt4__blog .gpt4__blog-box p{
+font-weight: bold;
+font-size: 20px;
+margin-block: 20px;
+min-height: 100px;
+}
+.gpt4__blog .gpt4__blog-box a{
+color: white;
+font-size: 13px;
+position: absolute;
+bottom: 20px;
+left: 20px;
+}

@@ -1,0 +1,26 @@
+
+.gpt__4-feature.feature-hor{
+display: flex;
+gap: 30px;
+justify-content: space-between;
+}
+
+.gpt__4-feature .feature-line{
+    width: 38px;
+    height: 3px;
+    background: var(--gradient-bar);
+    margin-bottom: 5px;
+    
+}
+.gpt__4-feature h3{
+color: white;
+}
+.gpt__4-feature p{
+color: #81AFDD;
+font-size: 14px;
+max-width: 600px;
+line-height: 2;
+}
+.gpt__4-feature.feature-ver p{
+margin-top: 30px;
+}
