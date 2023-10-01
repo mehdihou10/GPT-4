@@ -38,7 +38,11 @@ margin-block: 100px;
 .gpt4__whatgpt4 .gpt4__whatgpt4-second h1{
 font-weight: 800;
 max-width: 550px;
-font-size: 40px;
+}
+@media(min-width: 576px){
+    .gpt4__whatgpt4 .gpt4__whatgpt4-second h1{
+        font-size: 40px;
+    } 
 }
 
 .gpt4__whatgpt4 .gpt4__whatgpt4-third{
